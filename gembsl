@@ -304,6 +304,21 @@ gem_erlang_random_short_node_name() {
 }
 
 ##====================================================
+## gem_command
+##====================================================
+
+# Check to see if the specified shell command exist
+gem_command_exist() {
+    local l
+    l=$(command -v "$1")
+    if [ -x "$l" ]; then
+        GEM_FUNC_RESULT=true
+    else
+        GEM_FUNC_RESULT=false
+    fi
+}
+
+##====================================================
 ## gem_net
 ##====================================================
 
