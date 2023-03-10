@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# Copyright (c) 2022 Madalin Grigore-Enescu
 # GEM Bash Shell Library (gembsl) 
 # gembsl is a small bash script that acts as a library for other bash scripts
 
